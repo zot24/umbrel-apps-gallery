@@ -9,5 +9,5 @@
     </filter>
   </defs>
   <rect width="256" height="256" fill="#060a0d"/>
-  <text x="128" y="170" text-anchor="middle" font-family="'Oxanium', sans-serif" font-size="160" font-weight="700" fill="#50ffa8" filter="url(#glow)" letter-spacing="4">H</text>
+  <text x="128" y="138" text-anchor="middle" dominant-baseline="central" font-family="'Oxanium', sans-serif" font-size="150" font-weight="700" fill="#50ffa8" filter="url(#glow)">H</text>
 </svg>
