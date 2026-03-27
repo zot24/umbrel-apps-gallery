@@ -15,10 +15,10 @@ This issue is tracked at [getumbrel/umbrel#1998](https://github.com/getumbrel/um
 ```
 umbrel-apps-gallery/
 └── <app-id>/
-    ├── icon.png      # 256x256 app icon
-    ├── 1.jpg         # Gallery image (1440x900)
-    ├── 2.jpg
-    └── 3.jpg
+    ├── icon.svg      # 256x256 app icon (SVG)
+    ├── 1.png         # Gallery image (1440x900)
+    ├── 2.png
+    └── ...
 ```
 
 ## Usage in umbrel-app.yml
@@ -26,20 +26,20 @@ umbrel-apps-gallery/
 Reference assets using raw GitHub URLs:
 
 ```yaml
-icon: https://raw.githubusercontent.com/zot24/umbrel-apps-gallery/main/<app-id>/icon.png
+icon: https://raw.githubusercontent.com/zot24/umbrel-apps-gallery/main/<app-id>/icon.svg
 gallery:
-  - https://raw.githubusercontent.com/zot24/umbrel-apps-gallery/main/<app-id>/1.jpg
-  - https://raw.githubusercontent.com/zot24/umbrel-apps-gallery/main/<app-id>/2.jpg
-  - https://raw.githubusercontent.com/zot24/umbrel-apps-gallery/main/<app-id>/3.jpg
+  - https://raw.githubusercontent.com/zot24/umbrel-apps-gallery/main/<app-id>/1.png
+  - https://raw.githubusercontent.com/zot24/umbrel-apps-gallery/main/<app-id>/2.png
+  - https://raw.githubusercontent.com/zot24/umbrel-apps-gallery/main/<app-id>/3.png
 ```
 
 ## Apps
 
 | App ID | Icon | Gallery |
 |--------|------|---------|
-| zot24-clawdbot | [icon.png](zot24-clawdbot/icon.png) | [1](zot24-clawdbot/1.jpg), [2](zot24-clawdbot/2.jpg), [3](zot24-clawdbot/3.jpg) |
+| zot24-hermes | [icon.svg](zot24-hermes/icon.svg) | [1](zot24-hermes/1.png), [2](zot24-hermes/2.png), [3](zot24-hermes/3.png), [4](zot24-hermes/4.png), [5](zot24-hermes/5.png) |
 
 ## Related Repositories
 
 - [zot24/umbrel-apps](https://github.com/zot24/umbrel-apps) - App definitions and docker-compose files
-- [zot24/clawdbot-docker](https://github.com/zot24/clawdbot-docker) - Docker image builds
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) - Hermes Agent by Nous Research
