@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Sharp-cornered background — Umbrel applies the rounded mask in CSS. -->
+  <rect width="256" height="256" fill="#0F172A"/>
+
+  <!-- Browser window frame in phosphor green (Playwright + Chromium motif). -->
+  <rect x="40" y="60" width="176" height="140" fill="none" stroke="#10B981" stroke-width="4"/>
+
+  <!-- Title bar -->
+  <rect x="40" y="60" width="176" height="22" fill="#10B981"/>
+
+  <!-- Traffic-light dots -->
+  <circle cx="54" cy="71" r="3.5" fill="#0F172A"/>
+  <circle cx="66" cy="71" r="3.5" fill="#0F172A"/>
+  <circle cx="78" cy="71" r="3.5" fill="#0F172A"/>
+
+  <!-- Address bar hint -->
+  <rect x="98" y="66" width="110" height="10" fill="#0F172A" opacity="0.4"/>
+
+  <!-- Centered play triangle — evokes "render this URL". -->
+  <polygon points="110,108 110,178 174,143" fill="#10B981"/>
+</svg>
