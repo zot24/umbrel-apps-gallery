@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Sharp-cornered background — Umbrel applies the rounded mask in CSS. -->
+  <!-- nworth's editorial palette: warm ink ground, cream chart, gold focal node. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#211f1c"/>
+      <stop offset="1" stop-color="#141210"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="50" x2="0" y2="208" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5f1ea" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#f5f1ea" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="256" height="256" fill="url(#bg)"/>
+
+  <!-- Baseline axis -->
+  <line x1="34" y1="206" x2="226" y2="206" stroke="#6f6658" stroke-width="3" stroke-opacity="0.45"/>
+
+  <!-- Rising net-worth area + line -->
+  <polygon points="38,176 72,150 102,164 134,112 166,126 200,82 222,60 222,206 38,206" fill="url(#area)"/>
+  <polyline points="38,176 72,150 102,164 134,112 166,126 200,82 222,60"
+            fill="none" stroke="#f5f1ea" stroke-width="11"
+            stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Current-value focal node (gold) with an ink halo so it reads over the line. -->
+  <circle cx="222" cy="60" r="15" fill="#141210"/>
+  <circle cx="222" cy="60" r="10" fill="#d8b15f" filter="url(#glow)"/>
+</svg>
