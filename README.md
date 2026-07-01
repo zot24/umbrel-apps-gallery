@@ -38,6 +38,7 @@ gallery:
 | App ID | Icon | Gallery |
 |--------|------|---------|
 | zot24-hermes | [icon.svg](zot24-hermes/icon.svg) | [1](zot24-hermes/1.png), [2](zot24-hermes/2.png), [3](zot24-hermes/3.png), [4](zot24-hermes/4.png), [5](zot24-hermes/5.png) |
+| zot24-nworth | [icon.svg](zot24-nworth/icon.svg) | _pending_ |
 
 ## Related Repositories
 
