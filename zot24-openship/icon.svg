@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Openship">
+  <rect width="512" height="512" fill="#0b1220"/>
+  <g fill="none" stroke="#7dd3fc" stroke-width="18" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M96 320 L256 384 L416 320"/>
+    <path d="M128 300 L256 352 L384 300 L256 248 Z"/>
+    <path d="M256 248 L256 128"/>
+    <path d="M256 128 L336 168 L256 208"/>
+  </g>
+  <circle cx="256" cy="128" r="14" fill="#7dd3fc"/>
+</svg>
