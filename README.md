@@ -40,6 +40,7 @@ gallery:
 | zot24-nworth | [icon.svg](zot24-nworth/icon.svg) | _pending_ |
 | zot24-herdr | [icon.svg](zot24-herdr/icon.svg) | [1](zot24-herdr/1.png) · [2](zot24-herdr/2.png) · [3](zot24-herdr/3.png) |
 | zot24-apprise | [icon.svg](zot24-apprise/icon.svg) | _pending_ |
+| zot24-cloudflared | [icon.svg](zot24-cloudflared/icon.svg) | [1](zot24-cloudflared/1.png) · [2](zot24-cloudflared/2.png) · [3](zot24-cloudflared/3.png) |
 
 ## Related Repositories
 
